@@ -335,32 +335,45 @@
   z-index: 2;
   letter-spacing: 1px;
 }
-
-/* Background Themes */
+/* Project 1 - SriniVasa Apple Care (Purple) */
 .ecommerce-bg {
   background: linear-gradient(135deg, #6e48aa 0%, #9d50bb 100%);
 }
 
+/* Project 2 - Vijay Jewellers (Royal Blue) */
 .dashboard-bg {
-  background: linear-gradient(135deg, #4776E6 0%, #8E54E9 100%);
+  background: linear-gradient(135deg, #3a7bd5 0%, #00d2ff 100%);
 }
 
+/* Project 3 - TechEntry (Emerald Green) */
 .education-bg {
-  background: linear-gradient(135deg, #1D976C 0%, #93F9B9 100%);
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
 }
 
+/* Project 4 - Sri Giri Temple (Fiery Red) */
 .temple-bg {
-  background: linear-gradient(135deg, #FF416C 0%, #FF4B2B 100%);
+  background: linear-gradient(135deg, #f857a6 0%, #ff5858 100%);
 }
 
-.crm-bg {
-  background: linear-gradient(135deg, #4B6CB7 0%, #182848 100%);
+/* Project 5 - TrekTrack India (Deep Ocean) */
+.trekking-bg {
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
 }
 
-.realestate-bg {
-  background: linear-gradient(135deg, #1FA2FF 0%, #12D8FA 50%, #A6FFCB 100%);
+/* Project 6 - EV ChargePoint (Electric Teal) */
+.evcharging-bg {
+  background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
 }
 
+/* Project 7 - I Own It (Vibrant Orange) */
+.handcraft-bg {
+  background: linear-gradient(135deg, #ff8008 0%, #ffc837 100%);
+}
+
+/* Project 8 - JGS Alumni (Warm Purple) */
+.alumni-bg {
+  background: linear-gradient(135deg, #8e2de2 0%, #4a00e0 100%);
+}
 /* Project Details */
 .project-details {
   padding: 1.8rem;
@@ -678,5 +691,57 @@ h1.text-gradient {
     background: #fff3cd;
     color: #856404;
     border: 1px solid #ffeeba;
+  }
+}
+
+
+
+
+
+.site-footer {
+  background: #2a2a2a;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1.5rem 0;
+}
+
+.contact-link {
+  color: #ccc;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s;
+}
+
+.contact-link:hover {
+  color: var(--accent-color); /* Match your theme color */
+}
+
+.footer-copyright {
+  margin-top: 2rem;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer-contact {
+    flex-direction: column;
+    gap: 1rem;
   }
 }
